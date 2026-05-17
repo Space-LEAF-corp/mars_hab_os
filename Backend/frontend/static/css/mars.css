@@ -1,0 +1,62 @@
+body.mars-bg {
+  background: radial-gradient(circle at top, #ffb347, #8b2e1a 60%, #1b0b0b 100%);
+  font-family: system-ui, sans-serif;
+  color: #fff;
+}
+
+.login-container {
+  max-width: 320px;
+  margin: 10vh auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background: #ff6a3d;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body.mars-desktop {
+  background: linear-gradient(135deg, #2b1a1a, #120909);
+  color: #f5f5f5;
+  margin: 0;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+}
+
+.desktop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.widget {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
